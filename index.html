@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<title>牢大永不坠机</title>
+</head>
+<body>
+ 
+<h1><em>man</em></h1>
+<div>
+<embed src="青春曼巴.mp3" autostart="true" loop="true" hidden="false">
+<img src="man.jpg" width="400px" height="400px" alt="This is a butiful picture">
+</div>
+<p><strong>what can i say</strong></p>
+<br>
+<form style="height: auto;">
+
+<fieldset>
+<label class="qwq">Dear user:</label>    
+
+<input type="password" placeholder="passwords" style="height: 30px;">
+<br>
+<label class="qaq"> Birthday:</label>
+
+<input type="date" placeholder="date">
+<br>
+<select>
+<option selected="select">china</option>
+<option>Amercia</option>
+<option>Janpan</option>
+</select>
+<br>
+
+<audio src="man.mp3" preload="auto"></audio>
+<button id="playButton">登录</button>
+<script>
+    const audio = document.getElementById('myAudio');
+    const button = document.getElementById('playButton');
+    
+    button.addEventListener('click', function() {
+        audio.play();
+    });
+    </script>
+</fieldset>
+</form> 
+</body>
+
+</html>
+
