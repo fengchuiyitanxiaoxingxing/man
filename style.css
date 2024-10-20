@@ -1,0 +1,46 @@
+h1{
+ text-align: center;   
+}
+p {
+ background-color: black;
+ font-size: 50px;
+ font-family: Courier new ;
+ font-style: italic;
+ color: Orange;
+ font-weight: bold;
+ text-align: center;
+}
+
+img {
+ border-radius: 150px;
+ border: solid 1px gold;
+}
+
+div{
+ text-align: center;   
+}
+
+  .qwq {
+   font-size: 25px;
+ }
+
+  input[type="password"]{
+  width: 50px;
+  }
+  input[type="date"]{
+  width: 50px;
+  }
+  .qaq{
+    font-size: 25px;
+  }
+  section{
+    width: 100px;
+    height: 100px;
+  }
+  button{
+  width: 100px;
+  }
+  form {
+   padding: 0%; 
+   text-align: center;
+  }
